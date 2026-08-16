@@ -6,7 +6,7 @@
 import { AppStats, CourseKey, TestSubmissionPayload } from '../types';
 
 // Constante para configuração do endpoint REST da Nuvem (Google Sheets Script, Firebase, Node API, etc.)
-export const CLOUD_API_URL = "";
+export const CLOUD_API_URL = "https://backend-vocacional-ifpr.onrender.com/api/stat";
 
 const STORAGE_KEY_TESTS = 'ifpr_vocacional_tests_v1';
 const STORAGE_KEY_CUSTOM_API = 'ifpr_vocacional_custom_api_url';
