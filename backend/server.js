@@ -10,6 +10,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Função auxiliar para gerar carimbo de data/hora no horário de Brasília
+const getTimestamp = () => {
+    return new Date().toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' });
+};
+
+
 // =====================================================
 // CONEXÃO COM O BANCO DE DADOS MONGODB
 // =====================================================
