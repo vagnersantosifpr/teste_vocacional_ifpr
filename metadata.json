@@ -1,0 +1,6 @@
+{
+  "name": "Teste Vocacional IFPR Assis",
+  "description": "Descubra a sua Vibe Profissional no IFPR Campus Assis Chateaubriand para o Processo Seletivo 2027.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
