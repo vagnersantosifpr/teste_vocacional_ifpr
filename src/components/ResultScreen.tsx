@@ -368,7 +368,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({
           <div className="pt-2 flex flex-col sm:flex-row gap-3 items-center justify-between text-xs text-slate-300">
             <span>📚 Cursos Técnicos Integrados ao Ensino Médio • Duração de 3 anos</span>
             <a
-              href="https://assischateaubriand.ifpr.edu.br"
+              href="https://ifpr.edu.br/assis-chateaubriand/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-white font-semibold hover:text-[#2F9E41] transition-colors"
